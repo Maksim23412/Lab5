@@ -48,3 +48,6 @@ console.log(
 console.log(
     Object.getPrototypeOf(Dog.prototype) === Animal.prototype
 );
+
+// Экспорт конструкторов
+module.exports = { Animal, Dog };
