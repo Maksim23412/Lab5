@@ -40,4 +40,8 @@ console.log("Метод getAverage есть у объекта:", student1.hasOwn
 console.log("Метод getAverage есть в прототипе:", Student.prototype.hasOwnProperty("getAverage"));
 
 console.log("Методы используют одну функцию:",
-    student1.getAverage === student2.getAverage);
+    student1.getAverage === student2.getAverage
+);
+
+// Экспорт конструктора
+module.exports = Student;
