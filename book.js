@@ -36,3 +36,5 @@ console.log("\nПроверка hasOwnProperty():");
 console.log(Book.hasOwnProperty("title"));
 console.log(Book.hasOwnProperty("year"));
 console.log(Book.hasOwnProperty("genre"));
+
+module.exports = Book;
